@@ -1,0 +1,82 @@
+:root{
+    --maintxtcolor:#0ea54d;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/*start header*/
+#header{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#slider{
+    background-image: url(../images/index.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+  }
+  #intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #ffffff;
+    
+  }
+  #intro h1{
+    font-size: 5em;
+    border-bottom: 3px solid #ffffff;
+    border-top: 3px solid #ffffff;
+    padding-bottom: 4px;
+  }
+  #intro button{
+    background: none;
+    width:150px;
+    height: 75px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+#navbar{
+    background-color: darkslategrey;
+    color: #ffffff;
+}
+#sub-navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#logo{
+    margin:10px;
+    text-transform: uppercase;
+}
+#logo span{
+    color: var(--maintxtcolor);
+}
+#navbar ul{
+    margin:10px;
+    list-style: none;
+    display:flex;
+}
+#navbar ul li{
+    padding-right:10px;
+    padding-left: 0;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color:#ffffff;
+}
+#navbar ul li a:hover{color:var(--maintxtcolor);}
+/*end header*/
+/*start of features*/
+#sub-features{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.vgh{
+    margin-left: 5px;
+}
+/*end of features*/
